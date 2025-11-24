@@ -274,9 +274,12 @@ int main()
   fin.open(filename.c_str());
 
   //** calls the <story> to start parsing
+   story();
   //** closes the input file 
+   fin.close();
 
 }// end
 //** require no other input files!
 //** syntax error EC requires producing errors.txt of error messages
 //** tracing On/Off EC requires sending a flag to trace message output functions
+
